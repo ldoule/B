@@ -1,10 +1,9 @@
 #!/bin/bash
 
 VersionString=`grep -E 's.version.*=' B.podspec`
-VersionNumber= "$VersionString" #`tr -cd 0.0.0-9.9.9 <<<"$VersionString"`
+VersionNumber=`tr -cd 0-9 <<<"$VersionString"`
 
-# NewVersionNumber=$(($VersionNumber + 1))
-NewVersionNumber=$(date +%Y%m%d%H%M%S)
+NewVersionNumber=$(($VersionNumber + 1))
 
 LineNumber=`grep -nE 's.version.*=' B.podspec | cut -d : -f1`
 sed -i "" "${LineNumber}s/${VersionNumber}/${NewVersionNumber}/g" B.podspec
