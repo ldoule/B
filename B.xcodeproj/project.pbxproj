@@ -13,6 +13,7 @@
 		10BE075C2297F0BA00E13276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10BE075B2297F0BA00E13276 /* Assets.xcassets */; };
 		10BE075F2297F0BA00E13276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10BE075D2297F0BA00E13276 /* LaunchScreen.storyboard */; };
 		10BE07622297F0BA00E13276 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE07612297F0BA00E13276 /* main.m */; };
+		10BE076A2297F30D00E13276 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE07692297F30D00E13276 /* BViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		10BE075E2297F0BA00E13276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10BE07602297F0BA00E13276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10BE07612297F0BA00E13276 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10BE07682297F30D00E13276 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BViewController.h; path = B/BViewController.h; sourceTree = "<group>"; };
+		10BE07692297F30D00E13276 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BViewController.m; path = B/BViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				10BE075D2297F0BA00E13276 /* LaunchScreen.storyboard */,
 				10BE07602297F0BA00E13276 /* Info.plist */,
 				10BE07612297F0BA00E13276 /* main.m */,
+				10BE07682297F30D00E13276 /* BViewController.h */,
+				10BE07692297F30D00E13276 /* BViewController.m */,
 			);
 			path = B;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10BE07572297F0B900E13276 /* ViewController.m in Sources */,
+				10BE076A2297F30D00E13276 /* BViewController.m in Sources */,
 				10BE07622297F0BA00E13276 /* main.m in Sources */,
 				10BE07542297F0B900E13276 /* AppDelegate.m in Sources */,
 			);
